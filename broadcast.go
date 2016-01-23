@@ -2,11 +2,11 @@
 //
 // To create an unbuffered broadcast channel, just declare a Broadcaster:
 //
-//     var b broadcaster.Broadcaster
+//     var b broadcast.Broadcaster
 //
 // To create a buffered broadcast channel with capacity n, call New:
 //
-//     b := broadcaster.New(n)
+//     b := broadcast.New(n)
 //
 // To add a listener to a channel, call Listen and read from Ch:
 //
